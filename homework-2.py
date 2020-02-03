@@ -28,4 +28,6 @@ print string_3.replace("banana", "grapes")
 
 # (2)(g)
 new_numbers = number_string
-type(number_string)
+number_string = "1234"
+number_string_int = int(number_string)
+print(number_string_int+2)
